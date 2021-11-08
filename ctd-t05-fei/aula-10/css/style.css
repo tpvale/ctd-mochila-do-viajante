@@ -1,0 +1,12 @@
+body {
+  background-image: url('../img/background.jpg');
+  background-size: 100%;
+  /* background-position: center; */
+  background-repeat: no-repeat;
+}
+
+.btn {
+  position: fixed;
+  height: 50px;
+  width: 100px;
+}
