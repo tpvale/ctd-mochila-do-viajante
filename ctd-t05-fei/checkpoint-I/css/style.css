@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-image: url(../img/sao-paulo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+h1 {
+  color: #F0F8FF;
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #4682B4;
+  padding: 20px;
+}
+
+#resumo {
+  padding: 20px;
+  color: #F0F8FF;
+  backdrop-filter: blur(5px);
+  text-align: center;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0.1rem;
+
+}
+
+#video {
+  text-align: center;
+  padding: 40px;
+}
+
+footer {
+  color: #F0F8FF;
+  background-color: #4682B4;
+  padding: 40px;
+  letter-spacing: 0.1rem;
+}
+
+#subtitulo {
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.icones {
+  margin: 10px;
+  width: 60px;
+  height: 60px;
+}
