@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  margin: 0 auto;
+  grid-template-areas: 
+  'header header'
+  'aside main'
+  'footer footer';
+}
+
+body header {
+  background-color: #000000;
+  grid-area: header;
+  height: 150px;
+}
+
+#logo-header {
+  text-align: center;
+  margin-top: 30px;
+
+}
+
+body aside {
+  background-color: #C1C1C1;
+  grid-area: aside;
+  height: 892px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li {
+  font-size: 25px;
+  margin-top: 20px;
+  font-family:'Segoe UI', Tahoma, sans-serif;
+}
+
+
+
+body main {
+  background-color: #DFDFDF;
+  grid-area: main;
+  height: 892px;
+}
+
+#sale {
+  margin-top: 56px;
+  margin-left: 556px;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 40px;
+  margin-left: 50px
+}
+
+body footer {
+  background-color: #E51837;
+  grid-area: footer;
+  height: 185px
+}
+
+#logo-footer {
+  text-align: center;
+}
