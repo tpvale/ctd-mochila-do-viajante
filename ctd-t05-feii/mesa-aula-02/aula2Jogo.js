@@ -12,8 +12,6 @@ function validandoPrompt(){
     }
 }
 
-
-
 /// função para conversão dos valores de numero para string
 function valorConvertido(valor){
     let valorRecebido = '';
@@ -68,13 +66,9 @@ function validandoResultado(j1, j2){
     return (pontuacaoComputador, pontuacaoJogador);
 }
 
-
-
 //declaração da variavel com pontuação zerada
 let pontuacaoJogador = 0;
 let pontuacaoComputador = 0;
-
-
 
 //loop para iniciar o jogo e ter um ganhador
 
